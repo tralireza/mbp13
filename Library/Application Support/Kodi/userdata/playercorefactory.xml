@@ -1,0 +1,20 @@
+<playercorefactory>
+  <players>
+    <player name="MPV" type="ExternalPlayer" audio="false" video="true">
+      <filename>/usr/local/bin/mpv</filename>
+      <args>--no-quiet --no-fullscreen --geometry=-0+0 --input-ipc-server=$HOME/mpv-kodi.skt "{1}"</args>
+      <!--
+      <hidexbmc>false</hidexbmc>
+      <hideconsole>false</hideconsole>
+      <warpcursor>none</warpcursor>
+      -->
+    </player>
+  </players>
+  <rules action="prepend">
+    <rule internetstream="true" player="MPV" />
+    <!--
+    <rule filetypes="pvr" player="DVDPlayer" />
+    <rule filetypes="mkv|mp4" filename="*/Movies/*" player="MPV" />
+    -->
+  </rules>
+</playercorefactory>
