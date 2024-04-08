@@ -1,0 +1,14 @@
+[user]
+name = Alireza
+email = 91642447+a7ir3za@users.noreply.github.com 
+[diff]
+	tool = vimdiff
+[alias]
+	br = branch
+	co = checkout
+	ct = commit
+	gl = log --all --graph --decorate --format=pln
+[tag]
+	sort = -creatordate
+[pretty]
+	pln = "%C(auto)%h%d %s [%cn; %C(yellow)%cr%C(auto)]"
