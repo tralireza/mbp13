@@ -7,8 +7,8 @@ email = 91642447+a7ir3za@users.noreply.github.com
 	br = branch
 	co = checkout
 	ct = commit
-	gl = log --all --graph --decorate --format=pln
+	gl = log --all --graph --decorate --format=gline
 [tag]
 	sort = -creatordate
 [pretty]
-	pln = "%C(auto)%h%d %s [%cn; %C(yellow)%cr%C(auto)]"
+	gline = "%C(auto)%h%d %s [%cn; %C(yellow)%cr%C(auto)]"
