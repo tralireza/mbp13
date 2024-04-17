@@ -1,4 +1,4 @@
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GF'
 
-# PATH=$PATH:/Library/Frameworks/Python.framework/Versions/Current/bin
+export PATH=$PATH:~/go/bin:/Library/Frameworks/Python.framework/Versions/Current/bin
