@@ -1,6 +1,6 @@
-VIM - Vi IMproved 9.0 (2022 Jun 28, compiled Mar 22 2024 08:58:59)
+VIM - Vi IMproved 9.0 (2022 Jun 28, compiled Apr  4 2024 22:49:39)
 macOS version - x86_64
-Included patches: 1-2136
+Included patches: 1-2136, 2142
 Compiled by root@apple.com
 Normal version without GUI.  Features included (+) or not (-):
 +acl               +file_in_path      +mouse_urxvt       -tag_any_white
