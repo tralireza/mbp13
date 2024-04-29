@@ -2,7 +2,7 @@
   <players>
     <player name="MPV" type="ExternalPlayer" audio="false" video="true">
       <filename>/usr/local/bin/mpv</filename>
-      <args>--no-quiet --no-fullscreen --geometry=-0+0 --input-ipc-server=$HOME/mpv-kodi.skt "{1}"</args>
+      <args>--ytdl-format=22 --quiet --no-fullscreen --geometry=-0+0 --input-ipc-server=$HOME/mpv-kodi.skt "{1}"</args>
       <!--
       <hidexbmc>false</hidexbmc>
       <hideconsole>false</hideconsole>
