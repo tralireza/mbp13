@@ -7,7 +7,7 @@
 	br = branch
 	co = checkout
 	ct = commit
-	gl = log --all --graph --decorate --format=gline --date=format:%d.%m.%y
+	gl = log --all --graph --decorate --format=gline --date=format:%d.%m.%y|%H:%M
 [tag]
 	sort = -creatordate
 [pretty]
