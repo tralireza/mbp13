@@ -7,10 +7,10 @@
 	br = branch
 	co = checkout
 	ct = commit
-	gl = log --all --graph --decorate --format=gl --date=format:%d.%m.%y|%H:%M
-	gls = log --all --graph --decorate --format=gls --date=format:%d.%m.%y|%H:%M
+	gl = log --all --graph --decorate --format=gline --date=format:%d.%m.%y|%H:%M
+	gls = log --all --graph --decorate --format=glines --date=format:%d.%m.%y|%H:%M
 [tag]
 	sort = -creatordate
 [pretty]
-	gl = "%C(auto)%h%d %s [%cn; %C(yellow)%cr%C(auto) %C(red)%cd%C(auto)]"
-	gls = "%C(auto)%h%d %s {%C(yellow)%cn%C(auto) %C(red)%cd%C(auto)"
+	gline = "%C(auto)%h%d %s [%cn; %C(yellow)%cr%C(auto) %C(red)%cd%C(auto)]"
+	glines = "%C(auto)%h%d %s {%C(yellow)%cn%C(auto) %C(red)%cd%C(auto)"
