@@ -1,10 +1,10 @@
-ffmpeg version N-115515-g00d029d5c0 Copyright (c) 2000-2024 the FFmpeg developers
+ffmpeg version n7.0.1-6-gf0b747ef1a Copyright (c) 2000-2024 the FFmpeg developers
 built with Apple clang version 15.0.0 (clang-1500.3.9.4)
 configuration: 
-libavutil      59. 20.100 / 59. 20.100
-libavcodec     61.  5.104 / 61.  5.104
-libavformat    61.  3.104 / 61.  3.104
-libavdevice    61.  2.100 / 61.  2.100
-libavfilter    10.  2.102 / 10.  2.102
-libswscale      8.  2.100 /  8.  2.100
-libswresample   5.  2.100 /  5.  2.100
+libavutil      59.  8.100 / 59.  8.100
+libavcodec     61.  3.100 / 61.  3.100
+libavformat    61.  1.100 / 61.  1.100
+libavdevice    61.  1.100 / 61.  1.100
+libavfilter    10.  1.100 / 10.  1.100
+libswscale      8.  1.100 /  8.  1.100
+libswresample   5.  1.100 /  5.  1.100
