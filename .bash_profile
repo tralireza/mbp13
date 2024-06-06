@@ -5,3 +5,5 @@ export PATH=$PATH:~/go/bin:/Library/Frameworks/Python.framework/Versions/Current
 bind '"\e3":"#"'
 
 export PS1='(\t <\w>) $((($? == 0)) && echo 🍺 || echo 🔥) \$ '
+
+complete -C ~/terraform terraform
