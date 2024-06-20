@@ -1,6 +1,6 @@
-mpv v0.38.0-500-g8e7d442f08 Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
- built on Jun 18 2024 10:02:50
-libplacebo version: v7.349.0 (v7.349.0-rc1-2-gbc9de9c7)
+mpv v0.38.0-512-gbab9b2cf4e Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+ built on Jun 20 2024 15:01:09
+libplacebo version: v7.349.0 (v7.349.0-rc1-3-g1fd3c7bd)
 FFmpeg version: n7.0.1-6-gf0b747ef1a
 FFmpeg library versions:
    libavutil       59.8.100
