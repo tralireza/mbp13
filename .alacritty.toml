@@ -1,0 +1,29 @@
+[general]
+
+[env]
+
+[window]
+dimensions = { columns = 132, lines = 39 }
+position = { x = 3, y = 3 }
+padding = { x = 3, y = 3 }
+dynamic_padding = true
+decorations = "Buttonless" 
+
+[scrolling]
+history = 1024
+
+[font]
+normal = { family = "Fira Code", style = "Retina" }
+size = 17
+
+[cursor]
+vi_mode_style = { shape = "Beam", blinking = "On" }
+
+[terminal]
+shell = "/bin/bash"
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+
