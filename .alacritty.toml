@@ -3,21 +3,29 @@
 [env]
 
 [window]
-dimensions = { columns = 132, lines = 39 }
-position = { x = 3, y = 3 }
+dimensions = { columns = 155, lines = 46 }
 padding = { x = 3, y = 3 }
-dynamic_padding = true
+dynamic_padding = true 
 decorations = "Buttonless" 
 
 [scrolling]
 history = 1024
 
 [font]
-normal = { family = "Fira Code", style = "Retina" }
+normal = { family = "Fira Code", style = "Light" }
 size = 17
+builtin_box_drawing = true
+
+[colors.primary]
+foreground = "#d8d8d8"
+background = "#000000"
+
+[selection]
+save_to_clipboard = true
 
 [cursor]
-vi_mode_style = { shape = "Beam", blinking = "On" }
+style = { shape = "Block", blinking = "On" }
+vi_mode_style = { shape = "Block", blinking = "On" }
 
 [terminal]
 shell = "/bin/bash"
@@ -26,4 +34,10 @@ shell = "/bin/bash"
 hide_when_typing = true
 
 [keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" }, # jump over a Word right
+  { key = "Left", mods = "Alt", chars = "\u001BB" },  # jump over a Word left
+]
 
+[debug]
+render_timer = false
