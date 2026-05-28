@@ -1,0 +1,31 @@
+theme = light:Apple System Colors Light,dark:Apple System Colors
+
+keybind = alt+h=text:\x1bh
+keybind = alt+l=text:\x1bl
+
+font-family = Fira Code
+font-style = Retina
+font-size = 13
+font-thicken = true
+adjust-cell-width = 5%
+adjust-cell-height = 10%
+
+window-width = 212 
+window-padding-x = 7
+window-padding-y = 3,5
+
+copy-on-select = clipboard
+scrollback-limit = 32768
+
+cursor-style = block
+cursor-style-blink = true
+mouse-hide-while-typing = true
+
+command = /bin/bash
+
+confirm-close-surface = false
+
+unfocused-split-opacity = 0.91
+
+macos-option-as-alt = left
+macos-titlebar-style = tabs
