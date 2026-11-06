@@ -6,26 +6,35 @@ keybind = alt+l=text:\x1bl
 font-family = Fira Code
 font-style = Retina
 font-size = 13
-font-thicken = true
-adjust-cell-width = 5%
-adjust-cell-height = 10%
+font-feature = -calt,-liga,-dlig
+font-thicken = false 
+adjust-cell-width = 0%
+adjust-cell-height = 0%
 
-window-width = 212 
+window-width = 151 
+window-height = 37
 window-padding-x = 7
 window-padding-y = 3,5
+macos-titlebar-style = native
+macos-window-shadow = false
 
 copy-on-select = clipboard
 scrollback-limit = 32768
 
 cursor-style = block
-cursor-style-blink = true
+cursor-style-blink = false 
 mouse-hide-while-typing = true
+copy-on-select = clipboard
+auto-update = off
+shell-integration-features = no-cursor,no-title
+confirm-close-surface = false
 
 command = /bin/bash
 
-confirm-close-surface = false
-
-unfocused-split-opacity = 0.91
+unfocused-split-opacity = 1.0
+background-opacity = 1
+background-blur = false
+custom-shader-animation = false
 
 macos-option-as-alt = left
 macos-titlebar-style = tabs
